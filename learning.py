@@ -5,10 +5,9 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-
 batch_size = 128
 num_classes = 10
-epochs = 12
+epochs = 50
 
 
 img_rows, img_cols = 28, 28
